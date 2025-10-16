@@ -1,7 +1,7 @@
 import os
 import requests
 
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")  # put your key in environment variable
+MISTRAL_API_KEY = os.getenv("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")  # put your key in environment variable
 MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"  # adjust if endpoint different
 
 def classify_risk(reading):

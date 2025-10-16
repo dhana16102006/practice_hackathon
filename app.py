@@ -30,7 +30,7 @@ st.markdown("""
         -webkit-background-clip: text; color: transparent;
         animation: gradientAnimation 8s ease infinite;
         text-shadow: 2px 2px 15px rgba(0,0,0,0.2);
-    ">FACTORYGUARDIAN</h1>
+    ">MACHINE GUARD</h1>
     <p style="
         font-size:26px; font-weight:bold;
         background: linear-gradient(270deg, #1e90ff, #ff69b4, #ffd700, #00ff7f);
@@ -38,7 +38,7 @@ st.markdown("""
         -webkit-background-clip: text; color: transparent;
         animation: gradientAnimation 6s ease infinite;
         text-shadow: 1px 1px 12px rgba(0,0,0,0.2);
-    ">Real-time Industrial Monitoring with Predictive AI Alerts</p>
+    ">Smart Monitoring System for Factories</p>
 </div>
 <style>
 @keyframes gradientAnimation {
