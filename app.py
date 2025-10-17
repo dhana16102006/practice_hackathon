@@ -114,7 +114,7 @@ for i, machine in enumerate(MACHINES):
                        {'range': [90, 120], 'color': "#ff416c"}]}
         ))
         fig.update_layout(height=180, margin=dict(t=0, b=0, l=0, r=0),
-                          paper_bgcolor='rgba(0,0,0,0)', font=dict(color='black'))
+                          paper_bgcolor='rgba(0,0,0,0)', font=dict(color='white'))
         st.plotly_chart(fig, use_container_width=True)
 
 # --- Live Alerts ---
