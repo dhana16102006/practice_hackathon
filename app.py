@@ -7,7 +7,25 @@ from agents.alert_agent import create_alert
 import plotly.graph_objects as go
 from streamlit_autorefresh import st_autorefresh
 
-st.set_page_config(page_title="FactoryGuardian Dashboard", layout="wide")
+st.set_page_config(page_title="Dashboard", layout="wide")
+
+
+st.markdown(
+    """
+    <style>
+        [data-testid="stAppViewContainer"] {
+            background: linear-gradient(120deg, #141e30, #243b55);
+            /* OR: background-color: #232323;  For solid color */
+        }
+        [data-testid="stHeader"] {
+            background: rgba(0,0,0,0);  /* make top header transparent if you want */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 
 # --- Auto-refresh every 3 seconds ---
 st_autorefresh(interval=3000, key="factory_dashboard")
