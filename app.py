@@ -366,7 +366,7 @@ for i, machine in enumerate(MACHINES):
     data = st.session_state['LATEST_READINGS'][machine]
     risk = data.get("risk_level", "normal")
     color_map = {
-        "normal": "linear-gradient(135deg, #6a11cb, #2575fc)",
+        "normal": "linear-gradient(135deg,#096B6B , #008080)",
         "warning": "linear-gradient(135deg, #f7971e, #ffd200)",
         "critical": "linear-gradient(135deg, #ff416c, #ff4b2b)"
     }
